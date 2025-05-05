@@ -1,5 +1,9 @@
 # Notes
 
+## Learning Source:
+
+1. https://youtu.be/788GvvcfwTY?si=SGf9GnujvGlJNlq4 (#1 Playwright Automation Using TypeScript Full Course 2025 | Playwright TypeScript Beginner Tutorial)
+
 ## Folder Walkthrough:
 
 1. **node_modules** = contains dependency details and inbuilt libraries
@@ -7,15 +11,29 @@
 
 ## How to:
 
-1. To run test, just run it on testing legend
+1. To run test, just run it on testing page (On vscode)
 2. To debug test, we can add break point and do debug mode
 3. To filter, use the filter button on the filter search
+4. **npx playwright test "location" --project='browser'** = to run specific spec in playwright
+
+## Important Things to notes of:
+
+1. Use pick locator from playwright (Its OP)
+2. User record at cursor from playwright (Its OP)
 
 ## Function:
 
 1. test.step('Step Name', async()=>{
    this is for naming the step to make a readable report
    });
+
+2. **page.goto("")** = to go to a URL
+3. **page.getByPlaceholder()** = to get an element by the placeholder
+4. **page.fill()** = to input text
+5. **expect(something).tosomething("something")** = to assert
+6. **expect("Something").toBeEnabled()** = To check whether the things is displayed or not
+7. **page.waitForTimeout()** = To wait
+8. **expect(page).toHaveTitle()** = To assert title
 
 ## Terminology Explanation:
 
