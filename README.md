@@ -8,4 +8,4 @@ This will be the journey for my playwright learning. Lets just get right into it
 
 - 02/05/2025 = Study
 
-- 05/05/2025 = Study (Read at cursor)
+- 05/05/2025 = Study (Read at cursor - Chapter 2)
