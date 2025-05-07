@@ -15,6 +15,7 @@
 2. To debug test, we can add break point and do debug mode
 3. To filter, use the filter button on the filter search
 4. **npx playwright test "location" --project='browser'** = to run specific spec in playwright
+5. To attach screenshot, change **screenshot** default value on config.ts file on **use**
 
 ## Important Things to notes of:
 
@@ -42,3 +43,27 @@
 3. **test** = used to define individual test (refer to _Function.1_)
 4. **page** = browser page object (so page is an object that have a lot of method related to page like navigating to website and clicking something inside the website)
 5. **expect** = matchers (assertion)
+
+## Locators:
+
+1. **By Role** = button, link, etc
+2. **By Label** = aria-label
+3. **By Alt attribute (Images)** = self explanatory
+4. **By Test Id** = To use custom test id, we need to specify **testIdAttribute: 'attribute name'** to the config.ts file on **use**
+5. **By Text** = = self explanatory
+6. **By Placeholder** = = self explanatory
+7. **By Xpath** = use page.locator and the parameter just use the xpath
+8. **CSS selector** = use page.locator
+9. **By Title** = title
+
+## Hooks:
+
+1. **beforeAll()** = Code will be executed before all test case
+2. **beforeEach()** = Code will be executed before each test case
+3. **afterEach()** = Code will be executed after each test case
+4. **afterAll()** = Code will be executed after all test case
+
+## Load, Stress, and Performance Testing:
+
+1. To put it simply, if many user use our system at the same time, can it still work well or not
+2. K6 convert javascript -> go for faster run
