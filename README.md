@@ -12,4 +12,8 @@ This will be the journey for my playwright learning. Lets just get right into it
 
 - 06/05/2025 = Study (Capture screenshot)
 
-- 07/05/2025 = Study (Performance & Load Testing (k6 Grafana Labs)) + (Attach screenshot to playwright test report - )
+- 07/05/2025 = Study (Performance & Load Testing (k6 Grafana Labs)) + (Attach screenshot to playwright test report - Hooks)
+
+- 08/05/2025 = Study (Dropdown - Mouse Action)
+
+- 12/05/2025 = Study (Keyboard action - Date field)
