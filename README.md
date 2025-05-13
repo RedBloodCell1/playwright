@@ -17,3 +17,5 @@ This will be the journey for my playwright learning. Lets just get right into it
 - 08/05/2025 = Study (Dropdown - Mouse Action)
 
 - 12/05/2025 = Study (Keyboard action - Date field)
+
+- 13/05/2025 = Study (Hard Assertion)
