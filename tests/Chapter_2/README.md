@@ -40,8 +40,10 @@
    - toHaveCount()
    - toBeDisabled()
 
-2. **Soft Assertion** = Stop in the end
+2. **Soft Assertion** = Stop in the end (just put **expect.soft()**)
 
 ## Notes:
 
 1. So UI automation is simply about picking a good locator and then clicking it
+2. When we enable watch mode (Continous run in testing tab), it will run automatically when there is a file changes
+3. **Trace** in playwright so you can manage your report
