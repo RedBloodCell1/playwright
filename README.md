@@ -25,3 +25,5 @@ This will be the journey for my playwright learning. Lets just get right into it
 - 19/06/2025 = Study (Soft Assertion - Trace viewer)
 
 - 20/06/2025 = Study (Chapter 3 - DONE) (LOCK IN)
+
+- 21/06/2025 = Study (Chapter 5) (LOCK IN)
