@@ -1,9 +1,10 @@
-import { test } from "@playwright/test";
+import { test } from "../../src/fixture/testFixture";
 import { LoginPage } from "../../src/pages/LoginPage";
 import { ShoppingPage } from "../../src/pages/ShoppingPage";
 import { ProductPage } from "../../src/pages/ProductPage";
 
-test("POM", async ({ page }) => {
+test("Fixture", async ({ page }) => {
+  console.log("Start");
   await page.setViewportSize({
     width: 1536,
     height: 695,
@@ -18,5 +19,6 @@ test("POM", async ({ page }) => {
   await shoppingPage.clickFirstItem();
 
   await productPage.validateItemName("Sauce Labs Backpack");
-  await page.waitForTimeout(2000);
+
+  console.log("End");
 });

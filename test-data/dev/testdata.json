@@ -1,6 +1,6 @@
 {
   "User": {
-    "Username": "standard_user",
+    "Username": "locked_out_user",
     "Password": "secret_sauce"
   }
 }

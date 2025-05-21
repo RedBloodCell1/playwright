@@ -33,3 +33,5 @@ dotenv.config({ path: path.resolve(\_\_dirname, ".env") });
    - This way, on my tests file, there will be only test steps that uses all the POM function by calling the page as an object
 
 7. **npx playwright test --only-changed** = to run only changed file
+
+8. To change viewport, look at playwright config file

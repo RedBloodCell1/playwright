@@ -17,7 +17,17 @@ export class LoginPage {
 
   // Methods
   async goToURL() {
-    await this.page.goto(`${process.env.SAUCEDEMO_URL}`);
+    if (process.env.TEST_EXECUTION_ENV == "qa") {
+      await this.page.goto(`${process.env.SAUCEDEMO_URL}`);
+      console.log(
+        `Tests are running in ${process.env.TEST_EXECUTION_ENV} env.`
+      );
+    } else if (process.env.TEST_EXECUTION_ENV == "dev") {
+      await this.page.goto(`${process.env.SAUCEDEMO_URL}`);
+      console.log(
+        `Tests are running in ${process.env.TEST_EXECUTION_ENV} env.`
+      );
+    }
   }
 
   async login(username: string, password: string) {
