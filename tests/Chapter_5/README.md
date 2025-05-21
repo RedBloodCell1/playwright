@@ -20,4 +20,16 @@ dotenv.config({ path: path.resolve(\_\_dirname, ".env") });
 4. Use **forin** to iterate over key // Use **forof** to iterate over list
 
 5. To use Excel:
+
    - **npm install xlsx**
+
+6. **POM (Page Object Model)**:
+
+   - object repository for web page elements
+   - To put it simply, its a place to put a lot of variable for the web page elements
+   - Every page has its own page class
+   - This also contains methods for that particular page
+   - For example, I have this login page, then i will have locator for inputting username and password. I also have the function for it.
+   - This way, on my tests file, there will be only test steps that uses all the POM function by calling the page as an object
+
+7. **npx playwright test --only-changed** = to run only changed file
