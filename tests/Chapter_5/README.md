@@ -30,8 +30,16 @@ dotenv.config({ path: path.resolve(\_\_dirname, ".env") });
    - Every page has its own page class
    - This also contains methods for that particular page
    - For example, I have this login page, then i will have locator for inputting username and password. I also have the function for it.
-   - This way, on my tests file, there will be only test steps that uses all the POM function by calling the page as an object
+   - This way, on my **tests file**, there will be only **test steps** that uses all the POM function by calling the page as an object
 
 7. **npx playwright test --only-changed** = to run only changed file
 
 8. To change viewport, look at playwright config file
+
+## Connection Notes:
+
+1. So in the **.env** we can put ENV variable so we can change data according to the ENV
+2. So we are gonna have our test data inside a different folder which is the dev and qa folder
+3. We also have this **interface** file in which we can put the **test data structure** inside the file
+4. Any **helper** can be put on **utils** folder
+5. Here we have **jsonHelper.ts** file in which simply by blackboxing, this helps us read the data from specified the directory.

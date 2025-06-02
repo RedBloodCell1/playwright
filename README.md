@@ -22,8 +22,12 @@ This will be the journey for my playwright learning. Lets just get right into it
 
 - 13/05/2025 = Study (Hard Assertion)
 
-- 19/06/2025 = Study (Soft Assertion - Trace viewer)
+- 19/05/2025 = Study (Soft Assertion - Trace viewer)
 
-- 20/06/2025 = Study (Chapter 3 - DONE) (LOCK IN)
+- 20/05/2025 = Study (Chapter 3 - DONE) (LOCK IN)
 
-- 21/06/2025 = Study (Chapter 5) (LOCK IN)
+- 21/05/2025 = Study (Chapter 5 - #2 Done) (LOCK IN)
+
+- 02/05/2025 = Study ()
+
+I want to tell a little story about my current situation, I wont say much but this is about my life relation. I don't mind writing this because this is like my life diary. So I just undergo a breakup (A pretty hard one). But it's for a good cause. I want to really focus on my life and keep getting bigger everyday upping my value as a person. So that's it. I am still pretty sad but I am sure that I can recover soon.
